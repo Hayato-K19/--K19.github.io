@@ -1,0 +1,156 @@
+body{
+    background-color: #f6f6ef;
+}
+#title{
+    color: #1f1f1f;
+    font-weight: bold;
+}
+#content{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+#TodoArea{
+    color: #313d43;
+}
+#taskInput{
+    width: 180px;
+    height: 35px;
+
+    border: 1px solid #88a39d;
+    border-radius: 15px;
+}
+#taskAdd{
+    width: 65px;
+    height: 38px;
+    
+    background-color: #7fa9a2;
+
+    border-radius: 15px;
+    border: none;
+
+    color: white;
+}
+#NotCompletedTask{
+    border-radius: 15px 15px 0 0;
+    background-color: #b8d2dc;
+    width:260px
+    
+}
+#NotCompletedArea{
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    width:260px;
+    min-height: 30px;
+     box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+#TodoList{
+    list-style: none;
+}
+#CompletedTask{
+    border-radius: 15px 15px 0 0;
+    background-color: #c7d9c8;
+    width:260px;
+}
+#CompletedArea{
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    width:260px;
+    min-height: 30px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
+#CompletedList{
+    list-style: none;
+}
+h2 {
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+}
+#TimeArea{
+    margin-top: -80px;
+    color:#313d43;
+    background-color: white;
+    width: 260px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+#TimerTitle{
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    background-color: #c7d9c8;
+    width:260px;
+
+}
+#ptimer{
+    margin-top:1px;
+    text-align: center;
+}
+#timer{
+    font-size: 64px;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#timecircle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 8px solid #c7d9d3;
+    background-color: transparent; 
+    margin: 0 auto;
+    background: conic-gradient(
+        #82b3ac 360deg,
+        #e5e5e5 0deg
+    );
+}
+#worktimelabel{
+    font-weight: bold;
+}
+#workTime{
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+}
+#timerbuttonArea{
+    
+    text-align: center;
+    margin-bottom: 5px;
+}
+#timerbuttons{
+    padding-bottom: 20px;
+}
+#startButton{
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+    background-color: #b0c4de;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+    margin-left: 19px;
+}
+#stopButton{
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+    background-color: #71bfa3;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
+#resetButton{
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 12px;
+    background-color: #b0c4de;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}

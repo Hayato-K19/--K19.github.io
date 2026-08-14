@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        作業アシスタント
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div>
+            <h1 id="title">作業アシスタント</h1>
+        </div>
+        <div id="content">
+            <section>
+                <div id="TodoArea">
+
+                    <h2>todoリスト</h2>
+                    <input placeholder="task" type="text" id="taskInput">
+                    <input id="taskAdd" type="button" value="追加">
+                    <h2 id="NotCompletedTask">未完了タスク</h2>
+                    <div id="NotCompletedArea">
+                        <ul id="TodoList"> </ul>
+                    </div>
+                    <h2 id="CompletedTask">完了タスク</h2>
+                    <div id="CompletedArea">
+                        <ul id="CompletedList"></ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div id="TimeArea">
+                    <h1 id="TimerTitle">Timer Area</h1>
+
+                    <h2 id="ptimer">ポモドーロタイマー</h2>
+                    <p id="timer">25:00</p> 
+                    <div id="timecircle"></div>
+                    <div id="worktimelabel"><label for="workTime">作業時間</label></div>
+                    <div>
+                        <select id="workTime">
+                            <option value="5">5分</option>
+                            <option value="25">25分</option>
+                            <option value="30">30分</option>
+                            <option value="60">60分</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h2 id="timerbuttonArea">タイマーボタンエリア</h2>
+                        <div id="timerbuttons">
+                        <input id="startButton" type="button" value="開始">
+                        <input id="stopButton" type="button" value="停止">
+                        <input id="resetButton" type="button" value="リセット">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>   
+</body>
+
+
+</html>
